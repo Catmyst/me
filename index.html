@@ -1,1 +1,104 @@
-sdfojas
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Catmyst's Personal Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    header{
+        text-align: center;
+        font-family: cursive;
+        color: gold;
+    }
+    body{
+        background-image: url(pagebg.avif);
+    }
+    body, a{
+        background-color: rgb(60,60,60);
+        color: #D8D8D8;
+        position: relative;
+        
+    }
+    p {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h3 {
+        text-align:center
+    }
+   .face{
+    text-align: center;
+    height: 200px;
+    width:200px;
+    margin-right: 10px;
+    border-radius: 100%;
+    border-width: 2px;
+    border-color: gold;
+    border-style:dashed;
+    
+   }
+   .social{
+        height:20px;
+        width: 20px;
+        border-radius: 20%;
+    }
+   .projectimg{
+    height: 100px;
+    width:100px;
+    border-radius: 10%;
+    align-items: center;
+   }
+   .projects{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+   }
+   .project{
+    text-align: center;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: gold;
+    border-width:2px;
+   }
+
+
+</style>
+<body>
+<header><h1>Catmyst's About Me Page</h1><img class="face"src="me.enc"></header>
+<section>
+    <p> Halo semuanya! Nama gua Ananda Rayhan Abhista, biasa dipanggil Nanda, alias Catmyst kalo lo ketemu gua di online. Gua asli Indonesia, umur gw masih 18 saat penulisan dan masih kuliah di Universitas Gunadarma jurusan Teknik Komputer DIII. </p>
+</section>
+<section>
+    <p>Seperti manusia normal lainnya, gua ada banyak hobi yang gua suka lakuin pas gabut selain ngescroll youtube shorts(gua gak main tiktok), contohnya main game. Selama 8 tahun gua main game, hampir 100% selalu di HP. 5 game yang paling sering gua mainkan itu: 
+        <ol>
+            <li>Growtopia (2600 Jam)</li>
+            <li>Old School Runescape (2000 Jam)</li>
+            <li>Minecraft (1500 Jam)</li>
+            <li>ML (500 Jam)</li>
+            <li>Eternium (400 Jam)</li>
+        </ol>
+    </p>
+    <p>
+        Gak cuma game, gua juga ada hobi-hobi spesifik lainnya kayak dengerin musik, jajan, main rubik, main sudoku, dan baru baru ini coding kayak page ini, Hokagestore, Flappy Bird, dan yang lain-lain yang pasti gua tambahin di bawah ini.
+    </p>
+</section>
+<section class="projects">
+    <div class="project" onclick="location.href='https://hokagestore.github.io/hokagestore'"><h3>Hokagestore MLBB</h3><img class="projectimg" src="hokagestore.png"></div>
+    <div class="project" onclick="location.href='https://catmyst.github.io/things/goofy_bird'"><h3>Flappy Bird</h3><img class="projectimg" src="bird.jpeg"></div>
+    <div class="project" onclick="location.href='https://catmyst.github.io/things/kalkulator'"><h3>HTML Calculator</h3><img class="projectimg" src="calc.png"></div>
+</section>
+<section>
+    <p>kalo elo masih penasaran ama kegantengan gueh, ikutin gua di Sosial Media gw di bawah ini</p>
+    <div><img class="social" src="ig.jpeg"><a href="https://www.instagram.com/catmyst_">@catmyst_</a></div>
+    <div><img class="social" src="yt.png"><a href="https://www.youtube.com/@Catmystt_">@Catmystt_</a></div>
+</section>
+</body>
+</html>
