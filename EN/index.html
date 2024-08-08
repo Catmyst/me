@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<style>
+    body{
+    font-family:Arial, Helvetica, sans-serif;
+    position:relative;
+    margin: 0
+}
+a{
+    color: #e0e1dd;
+}
+.maina{
+    color: #0d1b2a
+}
+.px16{
+    font-size: 2.67vw;
+}
+#profile{
+    border-radius: 100%;
+    margin-top: 4.17vw;
+    margin-left: 9.5vw;
+    height: 15vw;
+    width:15vw;
+}
+#info{
+    margin-left: 14.17vw;
+    display:flex;
+    flex-direction: column;
+    color:#e5e5e5
+}
+#name{
+    font-size:32px;
+    font-weight: 100;
+}
+#occupation{
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+@media (max-width: 600px){
+    #name{
+        font-size: 5.3vw;
+        font-weight: 100;
+    }
+    #occupation{
+        margin-top: -1.67vw;
+    font-size: 2.65vw;
+    font-weight: 100;
+    }
+}
+#header{
+    display: flex;
+    height: 22vw;
+    width: 100vw;
+    background-color:#415a77;
+    position: relative;
+    z-index: 3;
+}
+#sidebar{
+    height: 100vh;
+    width:34vw;
+    background-color: #778da9;
+    color: #e0e1dd;
+    position: absolute;
+    z-index: 2;
+}
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 17vw solid transparent;
+    border-right: 17vw solid transparent;
+    border-top: 6.25vw solid #415a77;
+}
+.sec{
+    margin-left: 4.17vw;
+    margin-right: 1vw;
+    
+}
+.title{
+    text-decoration: underline;
+    font-weight:400;
+    margin-bottom: -1.5vw;
+    font-size: 2.65vw;
+}
+.award{
+    font-weight: 200;
+    font-size: 2vw;
+}
+.indent{
+    margin-left:2.4vw;
+    margin-top:-2vw
+}
+.info{
+    margin-left:2.1vw;
+    margin-top: -2vw;
+    color: #ccc5b9;
+    font-size:1.9vw;
+    font-weight:100
+}
+.skill{
+    font-weight: 200;
+    font-size: 2vw;
+    margin-top: -1.6vw
+}
+#main{
+    text-align: justify;
+    color: #0d1b2a;
+    padding-left: 40vw;
+    padding-right: 6vw;
+    height: 100vh;
+    width: 54vw;
+    position: relative;
+    background-color: #e0e1dd;
+    z-index: 1;
+}
+.maintopmargin{
+    margin-top: 38.33vw;
+}
+.maintitle{
+    margin: 0;
+    padding-top: 4vw;
+    text-decoration: underline;
+}
+.d8{
+    margin-top:-1vw
+}
+.minmarbot{
+    margin-bottom: -0.25vw
+}
+
+.subtitle{
+    font-weight: 100;
+    font-size: 3vw;
+}
+.addmarbot{
+    margin-bottom:1vw
+}
+@media(min-width:600px){
+    .px16{
+        font-size: 16px;
+    }
+}
+@media(min-width:700px){
+    #profile{
+        border-radius: 100%;
+        margin-top: 29.19px;
+        margin-left: 66.5px;
+        height: 105px;
+        width:105px;
+    }
+    #info{
+        margin-left: 99.19px;
+        display:flex;
+        flex-direction: column;
+        color:#e5e5e5
+    }
+    #header{
+        display: flex;
+        height: 154px;
+        width: 100vw;
+        background-color:#415a77;
+        position: relative;
+        z-index: 3;
+    }
+    #triangle {
+        width: 0;
+        height: 0;
+        border-left: 119px solid transparent;
+        border-right: 119px solid transparent;
+        border-top: 43.75px solid #415a77;
+    }
+    #sidebar{
+        height: 100vh;
+        width:238px;
+        background-color: #778da9;
+        color: #e0e1dd;
+        position: absolute;
+        z-index: 2;
+    }
+    .sec{
+        margin-left: 29.19px;
+        margin-right: 7px;
+        
+    }
+    .title{
+        text-decoration: underline;
+        font-weight:400;
+        margin-bottom: -10.5px;
+        font-size: 18.55px;
+    }
+    .award{
+        font-weight: 200;
+        font-size: 14px;
+    }
+    .indent{
+        margin-left:16.8px;
+        margin-top:-14px;
+    }
+    .info{
+        margin-left:14.7px;
+        margin-top: -14px;
+        color: #ccc5b9;
+        font-size:13.3px;
+        font-weight:100
+    }
+    .skill{
+        font-weight: 200;
+        font-size: 14px;
+        margin-top: -11.2px
+    }
+    #main{
+        color: #0d1b2a;
+        padding-left: calc(6vw + 238px);
+        height: 100vh;
+        width: calc(88vw - 238px);
+        position: relative;
+        background-color: #e0e1dd;
+        z-index: 1;
+    }
+    .subtitle{
+        font-weight: 100;
+        font-size: 21px;
+    }
+}
+</style>
+<body>
+    <div id="header"><img id="profile" src="profile.jpg"><div id="info"><h1 id="name">Ananda Rayhan Abhista</h1><h2 id="occupation">College Student</h2></div></div>
+    <div id="sidebar"><div id="triangle"></div>
+        <section class="sec"> 
+            <h3 class="title">Education</h3>
+            <p class="award">•> Associate Degree in Computer Engineering</p>
+            <p class="info">Gunadarma University</p>
+            <p class="info">2024 - Present Day</p>
+            <p class="award">•> Mathematics and Natural Science</p>
+            <p class="info">SMAN 13 Depok</p>
+            <p class="info">2021 -  2024</p>
+            <p class="award">•> Junior High School</p> 
+            <p class="info">SMPN 7 Depok</p>
+            <p class="info">2018 -  2021</p>
+            <p class="award">•> Elementary School</p> 
+            <p class="info">SDN Curug 5</p>
+            <p class="info">2012 -  2018</p>
+        </section>
+        <section class="sec">
+            <h3 class="title">Hard Skills</h3>
+            <p class="award">•> Fluent in English, and Indonesian Language</p>
+            <p class="skill">•> HTML/CSS Knowledge</p>
+            <p class="skill">•> Proficient in JavaScript</p>
+            <p class="skill">•> Static Web Design</p>
+            <p class="skill">•> Responsive Web Design</p>
+        </section>
+        <section class="sec">
+            <h3 class="title">Soft Skills</h3>
+            <p class="award">•> Easily Adaptable</p>
+            <p class="skill">•> Consistent 100 WPM Typing</p>
+            <p class="skill">•> Time Management</p>
+            <p class="skill">•> Identifying and Resolving Issues</p>
+            <p class="skill">•> Maintaining Good Relation</p>
+            <p class="skill">•> Extreme Dedication</p>
+        </section>
+        <section class="sec">
+            <h3 class="title">Contact Info</h3>
+            <p class="award">•> Email: catmystt@gmail.com</p>
+            <p class="skill">•> Instagram: <a href="https://instagram.com/catmyst_">@Catmyst_</a></p>
+            <p class="skill">•> Line ID: <a href="https://line.me/ti/p/~catmyst">catmyst</a></p>
+            <p class="skill">•> Github: <a href="https://github.com/Catmyst">Catmyst</a></p>
+           
+            
+        </section>
+    </div>
+    <div id="main">
+            <section class="section">
+                <h3 class="maintitle">About Me</h3>
+                <p class="px16">Hi there! I am Ananda Rayhan Abhista, usually called Nanda. An average person from Indonesia with lots of quirky personalities when you meet me in real life even though I'm mostly introverted. My dream job is to be a programmer, hence why I took the Computer Engineering major in Gundarama University.</p>
+            </section>
+            <section class="section">
+                <h3 class="maintitle">Accomplishments</h3>
+                <h3 class="subtitle">•> Academic</p>
+                <ol class="d8">
+                    <li class="px16 addmarbot">Getting a Score of 593/677 in TOEFL</li>
+                    <p class="px16 d8"> (2024)</p>
+                    <li class="px16 addmarbot">Second-place in Senior HS Quiz Competition</li>
+                    <p class="px16 d8"> (2023)</p>
+                    <li class="px16 addmarbot">First-place in Senior HS Quiz Competition</li>
+                    <p class="px16 d8"> (2022)</p>
+                    <li class="px16 addmarbot">Participation in National Science Competition</li>
+                    <p class="px16 d8"> (2022,2021,2019,2018)</p>
+                    <li class="px16 addmarbot">Rank #1 Overall in Elementary Scbool</li>
+                    <p class="px16 d8"> (2022,2021,2019,2018)</p>
+                </ol>
+                <h3 class="subtitle">•> Non-Academic</p>
+                    <ol class="minmartop">
+                        <li class="px16 addmarbot">This "About Me" Page</li>
+                        <p class="px16 d8"> (2024)</p>
+                        <li class="px16 addmarbot">HTML Project "<a class="maina" href="https://hokagestore.github.io/hokagestore">Hokagestore</a>"</li>
+                        <p class="px16 d8"> (2024)</p>
+                    </ol>
+            </section>
+    </div>
+    
+    
+</body>
